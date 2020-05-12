@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title><%= cityName %></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+
+    <body class="text-center" style="background-color: black;">
+    <form style="color: #ffffff;" action="/" method="post">
+    <h1 class="h3 mb-3 font-weight-bold"><%= cityName %></h1>
+    <img src="<%= imageURL %>">
+    <p>The weather is currently <%= weatherDescription %> </p>
+    <p>The temperature in <%= cityName %> is <%= temp %> degrees Celcius</p>
+
+    <p class="mt-5 mb-3 text-muted";">&copy; Khushi Prerak</p>
+    </form>
+    </body>
+</html>
